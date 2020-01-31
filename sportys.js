@@ -24,9 +24,6 @@ function footerToMobileNav() {
     tabA.setAttribute('href','#store-more');
 
     // Place clones in DOM
-    footerLinks.foreach(item => {
-        lastTabContents.appendChild(footerLinks[item]);
-    });
     for (let i = 0; i < footerLinks.length; i ++) {
         lastTabContents.appendChild(footerLinks[i]);
     }
